@@ -66,7 +66,7 @@ function drawWheel(segmentsArray) {
     // Dessin du texte avec la couleur correspondante
     ctx.save();
     ctx.fillStyle = colorScheme.text;
-    ctx.font = "bold 18px arial";
+    ctx.font = "bold 18px Arial";
     ctx.translate(
       centerX + Math.cos(startAngle + anglePerSegment / 2) * (radius * 0.65),
       centerY + Math.sin(startAngle + anglePerSegment / 2) * (radius * 0.65)
